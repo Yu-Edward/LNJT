@@ -1,9 +1,9 @@
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH  # 段落对齐样式
 from docx.enum.table import WD_ALIGN_VERTICAL  # 表格垂直对齐方式
-from docx.enum.table import WD_TABLE_ALIGNMENT
+#from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.shared import Pt  # 段落字体磅数
-from docx.shared import RGBColor  # 字体颜色
+#from docx.shared import RGBColor  # 字体颜色
 from docx.shared import Inches  # 图标尺寸
 from docx.shared import Cm  # 表格高度、宽度等(厘米 )
 from docx.oxml.ns import qn  # 设置中文格式
